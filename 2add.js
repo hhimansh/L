@@ -13,6 +13,8 @@ var twoSum = function (nums, target) {
     i = nums[a];
     j = nums[b];
     while (a <= nums.length) {
+      i = nums[a];
+      j = nums[b];
       if (i + j == target) {
         document.getElementById("result").innerHTML += `${i+j}`;
         result[0] = b;
